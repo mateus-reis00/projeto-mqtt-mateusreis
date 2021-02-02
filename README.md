@@ -148,5 +148,5 @@ void loop() {
   mqttClient.loop();
     
 }
-! [Imagem de Yaktocat]
+! [Imagem do  projeto MQTT]
 https://camo.githubusercontent.com/7beef2d4780d87a603d7de49b2da0467c8537dff96575b628a04bd4010ebb1cc/68747470733a2f2f692e696d6775722e636f6d2f4d576870586b562e706e67
