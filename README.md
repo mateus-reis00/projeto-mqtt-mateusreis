@@ -13,7 +13,7 @@ foram utilizadas as seguintes blibiotecas
 
 # MATERIAIS
 
-* arduino uno
+* arduino Uno
 * modulo Ethernet (ENC28J60)
 * sensor Magnético (MC-38)
 * jumpers
