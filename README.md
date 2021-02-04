@@ -12,3 +12,8 @@ foram utilizadas as seguintes blibiotecas
 * [PubSubClient](https://github.com/knolleary/pubsubclient)
 
 # MATERIAIS
+
+* arduino uno
+* modulo Ethernet (ENC28J60)
+* sensor Magnético (MC-38)
+* jumpers
