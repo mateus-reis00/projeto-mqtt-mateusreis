@@ -17,3 +17,7 @@ foram utilizadas as seguintes blibiotecas
 * modulo Ethernet (ENC28J60)
 * sensor Magnético (MC-38)
 * jumpers
+
+#  CICRCUITO DO PROJETO
+
+![IMAGEM](https://camo.githubusercontent.com/ad1da211b35b60b23fb095a64e76dc6504d0c3229e853bd82a69a4d5d27bbb88/)
