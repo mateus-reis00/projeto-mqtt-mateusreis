@@ -10,3 +10,5 @@ avisando quando estiver ABERTA e FECHADO mandando uma mensagem para o servidor A
 foram utilizadas as seguintes blibiotecas
 * [UIPEthernet](https://github.com/UIPEthernet/UIPEthernet)
 * [PubSubClient](https://github.com/knolleary/pubsubclient)
+
+*MATERIAIS#
