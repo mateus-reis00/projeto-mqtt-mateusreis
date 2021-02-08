@@ -24,4 +24,3 @@ foram utilizadas as seguintes blibiotecas
 
 ator: Mateus Reis 
 
-GMAIL(https://mail.google.com/mail/u/0/#inbox)
