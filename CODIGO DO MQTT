@@ -54,16 +54,16 @@ void loop() {
 
  
    if(estado_sensor == 1){
+    Serial.println("aberto");
    mensagem = mqttClient.publish("mateusreis-t","aberto!");
-   Serial.println("aberto");
-   }
+   
 
   if(estado_sensor ==0){
   Serial.println("fechado");
     mensagem = mqttClient.publish("mateusreis-t","fechado!");
    }
 
- 
+ delay(1000);
   mqttClient.loop();
   
   }
