@@ -1,7 +1,4 @@
- ********************//*********************//***********************//*************************//***********************//************************//******************
- 
- 
-#include <PubSubClient.h>
+ #include <PubSubClient.h>
 #include <UIPEthernet.h>
 #include <utility/logging.h>
 #include <SPI.h>
@@ -58,21 +55,16 @@ void loop() {
  
    if(estado_sensor == 1){
    mensagem = mqttClient.publish("mateusreis-t","aberto!");
+   Serial.println("aberto");
    }
 
-   else{
-
+  if(estado_sensor ==0){
+  Serial.println("fechado");
     mensagem = mqttClient.publish("mateusreis-t","fechado!");
    }
 
-   
-
-  Serial.println(mensagem);
-  delay(500);
-
+ 
   mqttClient.loop();
   
   }
   
-    
-
