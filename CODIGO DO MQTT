@@ -57,12 +57,12 @@ void loop() {
 
  
    if(estado_sensor == 1){
-   mensagem = mqttClient.publish("danielbrito-t","aberto!");
+   mensagem = mqttClient.publish("mateusreis-t","aberto!");
    }
 
    else{
 
-    mensagem = mqttClient.publish("danielbrito-t","fechado!");
+    mensagem = mqttClient.publish("mateusreis-t","fechado!");
    }
 
    
